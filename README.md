@@ -1,2 +1,2 @@
 # WhatsApp!
-https://user-images.githubusercontent.com/77058534/170971705-582fd688-8949-4965-a50c-dedda47ff463.png
+![Simulator Screen](https://user-images.githubusercontent.com/77058534/170972196-c07488e1-5dcf-4359-af1b-bb772f949053.png)
