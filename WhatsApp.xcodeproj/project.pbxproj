@@ -10,9 +10,12 @@
 		8CD1DD0928449110007D6800 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1DD0828449110007D6800 /* AppDelegate.swift */; };
 		8CD1DD0B28449110007D6800 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1DD0A28449110007D6800 /* SceneDelegate.swift */; };
 		8CD1DD0D28449110007D6800 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1DD0C28449110007D6800 /* ViewController.swift */; };
-		8CD1DD1028449110007D6800 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD1DD0E28449110007D6800 /* Main.storyboard */; };
 		8CD1DD1228449111007D6800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CD1DD1128449111007D6800 /* Assets.xcassets */; };
-		8CD1DD1528449111007D6800 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD1DD1328449111007D6800 /* LaunchScreen.storyboard */; };
+		8CD1DD1D28449380007D6800 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1DD1C28449380007D6800 /* TabBarController.swift */; };
+		8CD1DD1F28449FB6007D6800 /* MessgesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1DD1E28449FB6007D6800 /* MessgesViewController.swift */; };
+		8CD1DD212844A00D007D6800 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1DD202844A00D007D6800 /* Model.swift */; };
+		8CD1DD232844AE9F007D6800 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1DD222844AE9F007D6800 /* HeaderView.swift */; };
+		8CD1DD252844B4F2007D6800 /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1DD242844B4F2007D6800 /* LineView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +23,13 @@
 		8CD1DD0828449110007D6800 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CD1DD0A28449110007D6800 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8CD1DD0C28449110007D6800 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8CD1DD0F28449110007D6800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CD1DD1128449111007D6800 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8CD1DD1428449111007D6800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CD1DD1628449111007D6800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CD1DD1C28449380007D6800 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		8CD1DD1E28449FB6007D6800 /* MessgesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessgesViewController.swift; sourceTree = "<group>"; };
+		8CD1DD202844A00D007D6800 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		8CD1DD222844AE9F007D6800 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		8CD1DD242844B4F2007D6800 /* LineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +65,12 @@
 				8CD1DD0828449110007D6800 /* AppDelegate.swift */,
 				8CD1DD0A28449110007D6800 /* SceneDelegate.swift */,
 				8CD1DD0C28449110007D6800 /* ViewController.swift */,
-				8CD1DD0E28449110007D6800 /* Main.storyboard */,
+				8CD1DD1C28449380007D6800 /* TabBarController.swift */,
+				8CD1DD1E28449FB6007D6800 /* MessgesViewController.swift */,
+				8CD1DD202844A00D007D6800 /* Model.swift */,
+				8CD1DD222844AE9F007D6800 /* HeaderView.swift */,
+				8CD1DD242844B4F2007D6800 /* LineView.swift */,
 				8CD1DD1128449111007D6800 /* Assets.xcassets */,
-				8CD1DD1328449111007D6800 /* LaunchScreen.storyboard */,
 				8CD1DD1628449111007D6800 /* Info.plist */,
 			);
 			path = WhatsApp;
@@ -125,9 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CD1DD1528449111007D6800 /* LaunchScreen.storyboard in Resources */,
 				8CD1DD1228449111007D6800 /* Assets.xcassets in Resources */,
-				8CD1DD1028449110007D6800 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,31 +146,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CD1DD0D28449110007D6800 /* ViewController.swift in Sources */,
+				8CD1DD1D28449380007D6800 /* TabBarController.swift in Sources */,
+				8CD1DD1F28449FB6007D6800 /* MessgesViewController.swift in Sources */,
+				8CD1DD212844A00D007D6800 /* Model.swift in Sources */,
+				8CD1DD252844B4F2007D6800 /* LineView.swift in Sources */,
 				8CD1DD0928449110007D6800 /* AppDelegate.swift in Sources */,
 				8CD1DD0B28449110007D6800 /* SceneDelegate.swift in Sources */,
+				8CD1DD232844AE9F007D6800 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		8CD1DD0E28449110007D6800 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8CD1DD0F28449110007D6800 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8CD1DD1328449111007D6800 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8CD1DD1428449111007D6800 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8CD1DD1728449111007D6800 /* Debug */ = {
@@ -292,7 +285,6 @@
 				INFOPLIST_FILE = WhatsApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,7 +296,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,7 +312,6 @@
 				INFOPLIST_FILE = WhatsApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +323,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
